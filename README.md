@@ -1,42 +1,99 @@
-# Kashaf — Portfolio
+# Kashaf — Mathematics × Technology
 
-Welcome to my personal portfolio website. This repository contains the source files for my portfolio, where I share my background as a BS Mathematics student, my programming journey, and the projects I build while learning software development.
+A personal portfolio website for Kashaf, a BS Mathematics student at Bahauddin Zakariya University, Multan, Pakistan. The site presents an honest snapshot of academic background, programming practice, AI-assisted application development, projects, and technical learning.
 
-🌐 **Live website:** [kashaf-math.github.io](https://kashaf-math.github.io)
+🌐 **Live portfolio:** https://kashaf-math.github.io/
 
-## About Me
+## Design & technology
 
-I am a BS Mathematics student at **Bahauddin Zakariya University, Multan**. I enjoy turning problem-solving ideas into working programs and strengthening my programming skills through practical projects.
+- Semantic HTML5
+- CSS3 with responsive layouts and a custom beige, cream, navy, brown, and sage palette
+- Vanilla JavaScript for the accessible mobile navigation and current-year footer
+- Google Fonts (DM Sans and Manrope), with system-font fallbacks
+- Custom SVG favicon and inline mathematical illustration
+- No framework, build step, API key, or paid service required
 
-My current programming focus is **C++**, especially problem-solving, functions, data handling, and object-oriented programming. I am also exploring web development and expanding my technical skills step by step.
+## Project structure
 
-## Featured Projects
+```
+.
+├── index.html
+├── style.css
+├── script.js
+├── 404.html
+├── README.md
+└── assets/
+    └── favicon.svg
+```
 
-- **SBPAS — Smart Business Profit and Analytical System:** A C++ console application for analysing business revenue, costs, profit, product performance, statistics, and business decisions.
-- **Student Management System:** A C++ program for managing student records, searching and updating information, calculating results, and working with files.
-- **Rock-Paper-Scissors:** A small C++ console game using functions, random choices, and conditional logic.
-- **Banking Program:** A C++ console application with balance checking, deposits, withdrawals, and basic input validation.
+## Run locally
 
-More details and selected source code are available on the [portfolio website](https://kashaf-math.github.io).
+1. Download or clone this repository.
+2. Open the folder in Visual Studio Code.
+3. Open `index.html` in a browser, or use the VS Code Live Server extension if installed.
 
-## Skills & Learning
+There are no package installations or environment variables.
 
-- **C++:** Fundamentals, functions, arrays, vectors, pointers, references, file handling, and object-oriented programming.
-- **Tools:** Visual Studio Code, GCC, and GitHub.
-- **Currently exploring:** Python and web development.
+## Deploy with GitHub Pages
 
-## Built With
+This repository is named `kashaf-math.github.io`, so its user-site address is:
 
-- HTML
-- CSS
+`https://kashaf-math.github.io/`
 
-The portfolio is a lightweight, responsive website designed to present my work and learning journey.
+1. Open the repository on GitHub.
+2. Go to **Settings → Pages**.
+3. Under **Build and deployment**, choose **Deploy from a branch**.
+4. Select the `main` branch and the `/ (root)` folder, then save.
+5. After GitHub Pages finishes publishing, open the website address above.
 
-## Connect
+## Deploy with Vercel
 
-- **GitHub:** [@kashaf-math](https://github.com/kashaf-math)
-- **Portfolio:** [kashaf-math.github.io](https://kashaf-math.github.io)
+1. Sign in to Vercel using the GitHub account that owns this repository.
+2. Choose **Add New → Project**.
+3. Import `kashaf-math/kashaf-math.github.io`.
+4. Keep the framework preset as **Other**.
+5. Leave the build command and output directory empty; this is a static HTML/CSS/JavaScript site.
+6. Select **Deploy**.
+
+When the GitHub repository is connected to Vercel, new commits to `main` can trigger automatic deployments. Check the deployment status in the Vercel dashboard.
+
+## Updating the site with Git
+
+From a terminal opened in the project folder:
+
+```bash
+git add .
+git commit -m "Update portfolio"
+git push origin main
+```
+
+If you have not cloned the repository yet:
+
+```bash
+git clone https://github.com/kashaf-math/kashaf-math.github.io.git
+cd kashaf-math.github.io
+```
+
+## Content accuracy notes
+
+- C++ is presented as practical programming experience through learning and console projects.
+- Python is labelled as currently being learned.
+- My Life Manager is described as developed with Google AI Studio assistance; Android APK packaging was performed by Kashaf using Android Studio.
+- Axiom is described as an offline, knowledge-base and rule-based educational assistant—not a generative AI or machine-learning chatbot.
+- ZGDC means **Zakariyan Google Developer Club**.
+- The Mathematics Tutor Chatbot remains unpublished and awaiting source-code verification.
+- No unverified project repositories, screenshots, professional experience, certificates, or testimonials are fabricated.
+
+## Final testing checklist
+
+- [ ] Open the site at desktop, tablet, and mobile widths.
+- [ ] Test every navigation anchor and the mobile menu.
+- [ ] Test GitHub, LinkedIn, email, and My Life Manager links.
+- [ ] Confirm keyboard focus is visible and the menu closes with Escape.
+- [ ] Check that reduced-motion preferences are respected.
+- [ ] Confirm there is no horizontal overflow on a narrow screen.
+- [ ] Check the browser console for errors after deployment.
 
 ---
 
-This portfolio is a work in progress and will grow as I learn, build, and document new projects.
+**Kashaf** · Where Mathematics Meets Technology.
